@@ -1,9 +1,13 @@
 
 const Header = ({title}) => {
+
+    const onClick = () => {
+        console.log('You Clicked')
+    }
     return (
         <header style={whole_header}>
             <h1 style= {HeadingStyle}> {title} </h1>
-            <button style = {ButtonStyle} > Add </button>
+            <button style = {ButtonStyle} onClick = {onClick} > Add </button>
             
         </header>
     )
