@@ -33,6 +33,7 @@ const whole_header = {
     display: 'flex',
     backgroundColor: 'lightpink',
 
+
 }
 
 export default Header
